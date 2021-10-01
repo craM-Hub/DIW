@@ -1,53 +1,98 @@
 <!DOCTYPE html>
-<html lang="ca">
-	<head>
-		<title>Títol de la web</title>
-		<meta charset="utf-8" />
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
-			crossorigin="anonymous"
-		/>
-		<link rel="stylesheet" href="./css/estils.css" />
-		<link rel="shortcut icon" href="/favicon.ico" />
-	</head>
-	<body>
-		<header>
-			<h1>El meu website</h1>
-			<p>Creat en html5</p>
-			<nav>
-				<a href="http://www.google.es">Buscador a Espanya</a>
-				<a href="http://www.yandex.com">Buscador a Rússia</a>
-				<a href="http://www.baidu.es">Buscador a la Xina</a>
-			</nav>
-			    
-		</header>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Primera Quinzena</title>
+  </head>
+  <body>
+    <h2 class="nom">Marc Llop Franch</h2>
+    <h3>Primera Quinzena</h3>
+    <div class="menu">
+      <a
+        href="https://bit.ly/3nIQB2f"
+        class="btn btn-outline-primary"
+        target="_blank"
+        >T1 - URL Curta: https://bit.ly/3nIQB2f</a
+      >
+      <a href="#" class="btn btn-outline-primary" onclick="showHide('domini')"
+        >T2 - Nom Domini: dealicanteajapon.com</a
+      >
+      <div id="domini" style="display: none">
+        <a href="./img/linkcss.png">
+          <img class="img" src="./img/domini.png" />
+        </a>
+      </div>
+      <a class="btn btn-outline-primary" onclick="showHide('blog')"
+        >T3 - Blog Personal</a
+      >
+      <div id="blog" style="display: none">
+        <h2>
+          <a href="https://dealicanteajapon.wordpress.com/">dealicanteajapon</a>
+        </h2>
 
-		<div>
-			<!-- Comença contingut1 -->
-			<article>
-				<h2>Títol de contingut1</h2>
-				<p>Contingut (a més d’imatges, cites, vídeos, àudio, etc)</p>
-			</article>
-			<!-- Comença contingut1 -->
-			<article>
-				<h2>Títol de contingut2</h2>
-				<p>Contingut (a més d’imatges, cites, vídeos, àudio, etc)</p>
-			</article>
-		</div>
-		<aside>
-			<h3>Contingut secundari 3</h3>
-			<p>Contingut</p>
-		</aside>
-		<p>Mis escritores favoritos (en orden de preferencia ):</p>
-		<ol>
-			<li><a href="salvatori.html" title="Salvatore">R. A. Salvatore </a></li>
-			<li><a href="martin.html" title="Martin">George R. R. Martin</a></li>
-			<li><a href="allende.html" title="Allende">Allende</a></li>
-		</ol>
-		<footer>
-			<p>Copyright Tots els drets reservats</p>
-		</footer>
-	</body>
+        <p>
+          Blog que vaig fer en 2010 quant vaig estar tres mesos al Japó,
+          estudiant l'idioma
+        </p>
+      </div>
+
+      <a href="./index_v1.html" target="_blank" class="btn btn-outline-primary"
+        >T4 - index.html</a
+      >
+      <a href="./index_v2.html" target="_blank" class="btn btn-outline-primary"
+        >T5 - index enriquit</a
+      >
+      <a class="btn btn-outline-primary" onclick="showHide('htmlValidator')"
+        >T6 - Validació del index_v2.html</a
+      >
+      <div id="htmlValidator" style="display: none">
+        <a href="./img/htmlValidator.png">
+          <img class="img" src="./img/htmlValidator.png" />
+        </a>
+      </div>
+      <a class="btn btn-outline-primary" onclick="showHide('linkcss')"
+        >T7 - ./css/estils.css</a
+      >
+      <div id="linkcss" style="display: none">
+        <a href="./img/linkcss.png">
+          <img class="img" src="./img/linkcss.png" />
+        </a>
+      </div>
+      <a class="btn btn-outline-primary" onclick="showHide('estructura')"
+        >T8 - Estructura d'arxius</a
+      >
+      <div id="estructura" style="display: none">
+        <a href="./img/estructura.png">
+          <img class="img" src="./img/linkcss.png" />
+        </a>
+      </div>
+      <a class="btn btn-outline-primary" onclick="showHide('sueldos')">
+        T9 - Sueldos Glassdoor.com</a
+      >
+      <div id="sueldos" style="display: none">
+        <a href="./img/webdev.png">
+          <img class="img" src="./img/webdev.png" />
+        </a>
+        <a href="./img/webdesigner.png">
+          <img class="img" src="./img/webdesigner.png" />
+        </a>
+      </div>
+      <a
+        href="./flowerBlog/index.html"
+        target="_blank"
+        class="btn btn-outline-primary"
+        >Práctica 1 - FlowerBlog</a
+      >
+    </div>
+  </body>
+  <script src="./js/index.js"></script>
 </html>
