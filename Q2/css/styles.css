@@ -2,6 +2,7 @@
   flex-direction: row;
   display: flex;
   text-align: center;
+  justify-content: center;
 }
 
 .menu {
@@ -17,6 +18,7 @@ h3 {
   height: 100px;
 }
 
+#bar,
 #sueldos,
 #domini,
 #blog,
