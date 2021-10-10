@@ -1,200 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="./css/styles.css" />
-    <title>Segona Quizena</title>
-  </head>
-  <body>
-    <h2 class="nom">Marc Llop Franch</h2>
-    <h3>Segona Quizena</h3>
-    <div class="container">
-      <div class="menu">
-        <a
-          href="https://worlds-highest-website.com/es/#hades"
-          class="btn btn-outline-primary"
-          target="_blank"
-          >T10: Web transgressora o rara</a
-        >
-        <a class="btn btn-outline-primary">T11: Ruta visual</a>
-        <a href="#" class="btn btn-outline-primary" onclick="showHide('bar')"
-          >T12: Cartells que no quadren</a
-        >
-        <div id="bar" style="display: none">
-          <a href="./assets/barveider.jpg">
-            <img class="img" src="./assets/barveider.jpg" />
-          </a>
-        </div>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="./css/styles.css" />
+        <title>Segona Quizena</title>
+    </head>
+    <body>
+        <h2 class="nom">Marc Llop Franch</h2>
+        <h3>Segona Quizena</h3>
+        <div class="container">
+            <div class="menu">
+                <a
+                    href="https://worlds-highest-website.com/es"
+                    class="btn btn-outline-primary"
+                    target="_blank"
+                    >T10: Web transgressora o rara</a
+                >
+                <a class="btn btn-outline-primary">T11: Ruta visual</a>
+                <a
+                    href="#"
+                    class="btn btn-outline-primary"
+                    onclick="showHide('bar')"
+                    >T12: Cartells que no quadren</a
+                >
+                <div id="bar" style="display: none">
+                    <a href="./assets/barveider.jpg">
+                        <img class="img" src="./assets/noCuadra.webp" />
+                    </a>
+                </div>
+                <a class="btn btn-outline-primary" onclick="showHide('blog')"
+                    >T13 - Logo/Color</a
+                >
+                <div id="blog" style="display: none">
+                    <h2>
+                        <a
+                            target="_blank"
+                            href="https://www.ironmaiden.com/the-band"
+                            >ironmaiden.com</a
+                        >
+                    </h2>
 
-        <div id="domini" style="display: none">
-          <a href="./img/linkcss.png">
-            <img class="img" src="./img/domini.png" />
-          </a>
-        </div>
-        <a class="btn btn-outline-primary" onclick="showHide('blog')"
-          >T13 - Logo/Color</a
-        >
-        <div id="blog" style="display: none">
-          <h2>
-            <a target="_blank" href="https://www.ironmaiden.com/the-band"
-              >ironmaiden.com</a
-            >
-          </h2>
+                    <p>
+                        Podem veure el nav bar de les RRSS de color roig com les
+                        lletres del logo, també es posen en roig els links del
+                        menú al pasar el ratolí per sobre. El fons negre, tipic
+                        fons dels grups de heavy al ser les camisetes d'aquest
+                        color.
+                    </p>
+                    <a target="_blank" href="./assets/ironmaiden.png">
+                        <img class="img" src="./assets/ironmaiden.png" />
+                    </a>
+                </div>
 
-          <p>
-            Podem veure el nav bar de les RRSS de color roig com les lletres del
-            logo, tambñé es posen en roig els links del menú al pasar el ratolí
-            per sobre. El fons negre, tipic fons dels grups de heavy al ser les
-            camisetes d'aquest color.
-          </p>
-          <a target="_blank" href="./assets/ironmaiden.png">
-            <img class="img" src="./assets/ironmaiden.png" />
-          </a>
-        </div>
+                <a
+                    class="btn btn-outline-primary"
+                    onclick="showHide('textures')"
+                    >T14 - Textures</a
+                >
+                <div id="textures" style="display: none">
+                    <p style="margin-bottom: -15px; margin-top: 15px">
+                        Textura naútica
+                    </p>
+                    <a target="_blank" href="./assets/nauticaTexture.jpeg">
+                        <img class="img" src="./assets/nauticaTexture.jpeg" />
+                    </a>
+                    <p style="margin-bottom: -15px; margin-top: 15px">
+                        Textura tenda pintura
+                    </p>
+                    <a target="_blank" href="./assets/pinturaTexture.webp">
+                        <img class="img" src="./assets/pinturaTexture.webp" />
+                    </a>
+                    <p style="margin-bottom: -15px; margin-top: 15px">
+                        Textura escola d'infants
+                    </p>
+                    <a target="_blank" href="./assets/kidsTexture.jpg">
+                        <img class="img" src="./assets/kidsTexture.jpg" />
+                    </a>
+                </div>
+                <a
+                    class="btn btn-outline-primary"
+                    onclick="showHide('equilibri')"
+                    >T15: Grafismes amb i sense equilibri</a
+                >
+                <div id="equilibri" style="display: none; margin-bottom: 15px">
+                    <h4 style="margin-bottom: 5px; margin-top: 50px">
+                        Grafismes equilibrats
+                    </h4>
+                    <a target="_blank" href="./assets/balanced.webp">
+                        <img class="img" src="./assets/balanced.webp" />
+                    </a>
 
-        <a class="btn btn-outline-primary" onclick="showHide('textures')"
-          >T14 - Textures</a
-        >
-        <div id="textures" style="display: none">
-          <p style="margin-bottom: -15px; margin-top: 15px">Textura naútica</p>
-          <a target="_blank" href="./assets/nauticaTexture.jpeg">
-            <img class="img" src="./assets/nauticaTexture.jpeg" />
-          </a>
-          <p style="margin-bottom: -15px; margin-top: 15px">
-            Textura tenda pintura
-          </p>
-          <a target="_blank" href="./assets/pinturaTexture.webp">
-            <img class="img" src="./assets/pinturaTexture.webp" />
-          </a>
-          <p style="margin-bottom: -15px; margin-top: 15px">
-            Textura escola d'infants
-          </p>
-          <a target="_blank" href="./assets/kidsTexture.jpg">
-            <img class="img" src="./assets/kidsTexture.jpg" />
-          </a>
+                    <a target="_blank" href="./assets/balanced_2.jpg">
+                        <img class="img" src="./assets/balanced_2.jpg" />
+                    </a>
+
+                    <h4 style="margin-bottom: 5px; margin-top: 50px">
+                        Grafismes desequilibrats
+                    </h4>
+                    <a target="_blank" href="./assets/unbalanced.png">
+                        <img class="img" src="./assets/unbalanced.png" />
+                    </a>
+                    <a target="_blank" href="./assets/unbalanced_2.jpg">
+                        <img class="img" src="./assets/unbalanced_2.jpg" />
+                    </a>
+                </div>
+                <a
+                    class="btn btn-outline-primary"
+                    onclick="showHide('composicioCircular')"
+                    >T16: Esquema composició circular</a
+                >
+                <div id="composicioCircular" style="display: none">
+                    <a href="http://vlog.it/" target="_blank"> vlog.it </a>
+                    <br />
+                    <a href="https://www.carbonstudio.co.uk/" target="_blank">
+                        carbonstudio.co.uk
+                    </a>
+                </div>
+                <a class="btn btn-outline-primary" onclick="showHide('linkcss')"
+                    >T17: Web amb proporció àurea</a
+                >
+                <div id="linkcss" style="display: none">
+                    <a href="./assets/aurea_2.png">
+                        <img class="img" src="./assets/aurea_2.png" />
+                    </a>
+                </div>
+                <a class="btn btn-outline-primary" onclick="showHide('ambient')"
+                    >T18: Busca tres web amb ambient càlid i tres més amb
+                    fred</a
+                >
+                <div id="ambient" style="display: none; margin-bottom: 20px">
+                    <h4 style="margin-bottom: 5px; margin-top: 20px">
+                        Càlides
+                    </h4>
+                    <a href="https://wootten.com.au/">wootten.com.au</a>
+                    <br />
+                    <a href="https://www.dishoom.com/">www.dishoom.com</a>
+                    <h4 style="margin-bottom: 5px; margin-top: 20px">Fredes</h4>
+                    <a href="https://www.carmax.com/">www.carmax.com</a>
+                    <br />
+                    <a href="https://www.greenmountainenergy.com/"
+                        >www.greenmountainenergy.com</a
+                    >
+                    <br />
+                    <a href="https://www.dropbox.com/">www.dropbox.com</a>
+                </div>
+                <a
+                    class="btn btn-outline-primary"
+                    onclick="showHide('tipologia')"
+                >
+                    T19: Exemple de tipus de lletra amb gràcia i sense</a
+                >
+                <div id="tipologia" style="display: none">
+                    <h4 style="margin-bottom: 5px; margin-top: 20px">
+                        Lletra serif
+                    </h4>
+                    <a href="https://www.dafont.com/es/bauserif.font">
+                        <img class="img" src="./assets/lletraSerif.png" />
+                    </a>
+                    <br />
+                    <h4 style="margin-bottom: 5px; margin-top: 30px">
+                        Lletra sans serif
+                    </h4>
+                    <a
+                        href="https://www.dafont.com/es/sanseriffic.font?text=Busca+lletra+sans+serif"
+                    >
+                        <img class="img" src="./assets/lletraSansSerif.png" />
+                    </a>
+                </div>
+                <a
+                    href="./flowerblog/index.html"
+                    target="_blank"
+                    class="btn btn-outline-primary"
+                    onmouseover="showHide('canviLletra')"
+                    onmouseleave="showHide('canviLletra')"
+                    >T20: Incorpora un tipus de lletra en la flowerblog diferent
+                    a Times New Roman/Arial</a
+                >
+                <div id="canviLletra" style="display: none; text-align: left">
+                    <h4>
+                        Incorporat aquest codi al style.css, click en el botó
+                        per veure el blog
+                    </h4>
+                    <p>
+                        @font-face {
+                        <br />font-family: 'Roboto'; <br />src:
+                        url('/Q2/flowerblog/fonts/Roboto/Roboto-Regular.ttf');
+                        <br />}
+                    </p>
+                </div>
+                <a
+                    href="#"
+                    class="btn btn-outline-primary"
+                    onclick="showHide('domini')"
+                    >T21: Diagramació Garrett per a grup musical</a
+                >
+                <div id="domini" style="display: none">
+                    <a href="./assets/garrett.jpg">
+                        <img class="img" src="./assets/garrett.jpg" />
+                    </a>
+                </div>
+                <a
+                    href="#"
+                    class="btn btn-outline-primary"
+                    onclick="showHide('sketch')"
+                    >T22: Sketching grup musical</a
+                >
+                <div id="sketch" style="display: none">
+                    <a href="./assets/sketch.jpg">
+                        <img class="img" src="./assets/sketch.jpg" />
+                    </a>
+                </div>
+                <a
+                    href="#"
+                    class="btn btn-outline-primary"
+                    onclick="showHide('balsamiq')"
+                    >T23: Treball amb Balsamiq</a
+                >
+                <div id="balsamiq" style="display: none">
+                    <a href="./assets/balsamiq.png">
+                        <img class="img" src="./assets/balsamiq.png" />
+                    </a>
+                </div>
+                <a
+                    href="#"
+                    class="btn btn-outline-primary"
+                    onclick="showHide('balsamiq12')"
+                    >T24: Retícula grup musical</a
+                >
+                <div id="balsamiq12" style="display: none">
+                    <h4>Retícula de 12 columnes</h4>
+                    <a href="./assets/balsamiq12.png">
+                        <img class="img" src="./assets/balsamiq12.png" />
+                    </a>
+                </div>
+                <a
+                    href="#"
+                    class="btn btn-outline-primary"
+                    onclick="showHide('guiaEstils')"
+                    >T25: Crea guia d’estil per al grup musical</a
+                >
+                <div id="guiaEstils" style="display: none">
+                    <a href="./assets/guiaEstils.png">
+                        <img class="img" src="./assets/guiaEstils.png" />
+                    </a>
+                </div>
+                <a
+                    href="#"
+                    class="btn btn-outline-primary"
+                    onclick="showHide('logo')"
+                    >T26: Crea logo grup musical i explica'l</a
+                >
+                <div id="logo" style="display: none">
+                    <a href="./assets/logo.png">
+                        <img class="img" src="./assets/logo.png" />
+                    </a>
+                </div>
+                <a
+                    href="#"
+                    class="btn btn-outline-primary"
+                    onclick="showHide('plantilla')"
+                    >T27: Busca una plantilla per al grup musical. Paraula clau
+                    ‘Rock’</a
+                >
+                <div id="plantilla" style="display: none">
+                    <a
+                        href="http://preview.themeforest.net/item/back-to-rock-creative-music-band-wordpress-theme/full_screen_preview/22001848"
+                    >
+                        <p>Plantilla grup musical de rock</p>
+                    </a>
+                </div>
+                <a
+                    href="./tdbBlog/index.html"
+                    class="btn btn-outline-primary"
+                    target="_blank"
+                    >T28: Crea blog funs grup musical</a
+                >
+            </div>
         </div>
-        <a
-          href="./index_v2.html"
-          target="_blank"
-          class="btn btn-outline-primary"
-          >T15: Busca grafismes</a
-        >
-        <a class="btn btn-outline-primary" onclick="showHide('htmlValidator')"
-          >T16: Esquema composició circular</a
-        >
-        <div id="htmlValidator" style="display: none">
-          <a href="./img/htmlValidator.png">
-            <img class="img" src="./img/htmlValidator.png" />
-          </a>
-        </div>
-        <a class="btn btn-outline-primary" onclick="showHide('linkcss')"
-          >T17: Web amb proporció àurea</a
-        >
-        <div id="linkcss" style="display: none">
-          <a href="./img/linkcss.png">
-            <img class="img" src="./img/linkcss.png" />
-          </a>
-        </div>
-        <a class="btn btn-outline-primary" onclick="showHide('estructura')"
-          >T18: Busca tres web amb ambient càlid i tres més amb fred</a
-        >
-        <div id="estructura" style="display: none">
-          <a href="./img/estructura.png">
-            <img class="img" src="./img/linkcss.png" />
-          </a>
-        </div>
-        <a class="btn btn-outline-primary" onclick="showHide('sueldos')">
-          T19: Exemple de tipus de lletra amb gràcia i sense</a
-        >
-        <div id="sueldos" style="display: none">
-          <a href="./img/webdev.png">
-            <img class="img" src="./img/webdev.png" />
-          </a>
-          <a href="./img/webdesigner.png">
-            <img class="img" src="./img/webdesigner.png" />
-          </a>
-        </div>
-        <a
-          href="./flowerblog/index.html"
-          target="_blank"
-          class="btn btn-outline-primary"
-          >T20: Incorpora un tipus de lletra en la P1 diferent a Times New
-          Roman/Arial</a
-        >
-        <a href="#" class="btn btn-outline-primary" onclick="showHide('domini')"
-          >T21: Diagramació Garrett per a grup musical</a
-        >
-        <div id="domini" style="display: none">
-          <a href="./img/linkcss.png">
-            <img class="img" src="./img/domini.png" />
-          </a>
-        </div>
-        <a href="#" class="btn btn-outline-primary" onclick="showHide('domini')"
-          >T22: Sketching grup musical</a
-        >
-        <div id="domini" style="display: none">
-          <a href="./img/linkcss.png">
-            <img class="img" src="./img/domini.png" />
-          </a>
-        </div>
-        <a href="#" class="btn btn-outline-primary" onclick="showHide('domini')"
-          >T23: Treball amb Balsamiq</a
-        >
-        <div id="domini" style="display: none">
-          <a href="./img/linkcss.png">
-            <img class="img" src="./img/domini.png" />
-          </a>
-        </div>
-        <a href="#" class="btn btn-outline-primary" onclick="showHide('domini')"
-          >T24: Retícula grup musical</a
-        >
-        <div id="domini" style="display: none">
-          <a href="./img/linkcss.png">
-            <img class="img" src="./img/domini.png" />
-          </a>
-        </div>
-        <a href="#" class="btn btn-outline-primary" onclick="showHide('domini')"
-          >T25: Crea guia d’estil per al grup musical</a
-        >
-        <div id="domini" style="display: none">
-          <a href="./img/linkcss.png">
-            <img class="img" src="./img/domini.png" />
-          </a>
-        </div>
-        <a href="#" class="btn btn-outline-primary" onclick="showHide('domini')"
-          >T26: Crea logo grup musical i explica'l</a
-        >
-        <div id="domini" style="display: none">
-          <a href="./img/linkcss.png">
-            <img class="img" src="./img/domini.png" />
-          </a>
-        </div>
-        <a href="#" class="btn btn-outline-primary" onclick="showHide('domini')"
-          >T27: Busca una plantilla per al grup musical. Paraula clau ‘Rock’</a
-        >
-        <div id="domini" style="display: none">
-          <a href="./img/linkcss.png">
-            <img class="img" src="./img/domini.png" />
-          </a>
-        </div>
-        <a href="#" class="btn btn-outline-primary" onclick="showHide('domini')"
-          >T28: Crea blog funs grup musical</a
-        >
-        <div id="domini" style="display: none">
-          <a href="./img/linkcss.png">
-            <img class="img" src="./img/domini.png" />
-          </a>
-        </div>
-      </div>
-    </div>
-  </body>
-  <script src="./js/index.js"></script>
+    </body>
+    <script src="./js/index.js"></script>
 </html>
