@@ -8,6 +8,24 @@
         />
         <link rel="stylesheet" href="css/style.css" type="text/css" />
         <script src="./js/index.js"></script>
+        <link
+            href="css/great.css"
+            rel="stylesheet"
+            type="text/css"
+            media="screen and (min-width: 981px)"
+        />
+        <link
+            href="css/medium.css"
+            rel="stylesheet"
+            type="text/css"
+            media="screen and (min-width: 481px) and (max-width: 980px)"
+        />
+        <link
+            href="css/mini.css"
+            rel="stylesheet"
+            type="text/css"
+            media="screen and (max-width: 480px)"
+        />
         <title>My Flower Blog</title>
     </head>
     <body>
@@ -16,9 +34,9 @@
         </header>
         <nav>
             <ul>
-                <li><a href="#">Blog</a></li>
+                <li><a href="./">Blog</a></li>
                 <li><a href="#">About</a></li>
-                <li><a href="#">Archives</a></li>
+                <li><a onclick="crearForm()">Form</a></li>
                 <li><a href="#">Contact</a></li>
                 <li class="subscribe"><a href="#">Subscribe via. RSS</a></li>
             </ul>
@@ -47,8 +65,8 @@
         </section>
         <div id="content">
             <div id="mainContent">
-                <section>
-                    <article>
+                <section id="index">
+                    <article class="dailyVideo">
                         <header>
                             <h2>Daily Video</h2>
                         </header>
@@ -184,7 +202,7 @@
                         </p>
                     </article>
                 </section>
-                <section>
+                <section id="postComment">
                     <form action="#" method="post">
                         <h3>Post a comment</h3>
                         <p>
