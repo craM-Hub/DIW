@@ -127,7 +127,7 @@ nav ul li.subscribe a {
     position: relative;
     margin-top: 66px;
     padding: 44px;
-    background: #467612 url('../img/intro_flower.png') repeat-x;
+    background: #467612 url('../../flowerblog/img/intro_flower.png') repeat-x;
 
     /* Background-size not implemented yet */
     -webkit-background-size: 100%;
