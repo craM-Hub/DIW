@@ -1,0 +1,8 @@
+.display-medium {
+    display: inherit !important;
+}
+
+body {
+    font-size: 0.8em;
+    font-family: 'Times New Roman', Times, serif;
+}
