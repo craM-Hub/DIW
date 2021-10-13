@@ -1,80 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
-            rel="stylesheet"
-            integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
-            crossorigin="anonymous"
-        />
-        <link rel="stylesheet" href="./css/styles.css" />
-        <title>Segona Quizena</title>
-    </head>
-    <body>
-        <h2 class="nom">Marc Llop Franch</h2>
-        <h3>Segona Quizena</h3>
-        <div class="container">
-            <div class="menu">
-                <a
-                    class="btn btn-outline-primary"
-                    onclick="showHide('videoConverter')"
-                    >T29: Conversors de vídeo</a
-                >
-                <div id="videoConverter" style="display: none">
-                    <a href="https://www.any-video-converter.com/">
-                        Any Video Converter
-                    </a>
-                    <br />
-                    <a href="http://www.freemake.com/free_video_converter/">
-                        Freemake Video Converter
-                    </a>
-                </div>
-
-                <a
-                    class="btn btn-outline-primary"
-                    onclick="showHide('audioConverter')"
-                    >T30: Conversors d'àudio</a
-                >
-                <div id="audioConverter" style="display: none">
-                    <a
-                        href="https://www.any-audio-converter.com/any-audio-converter.php"
-                    >
-                        Any Audio Converter
-                    </a>
-                    <br />
-                    <a href="https://www.freemake.com/es/free_audio_converter/">
-                        Freemake Audio Converter
-                    </a>
-                </div>
-                <a
-                    class="btn btn-outline-primary"
-                    href="./flowerblog/index.html"
-                    target="_blank"
-                    >E1 - E2 - E3 - E4 - E5 - Flowerblog</a
-                >
-                <a
-                    class="btn btn-outline-primary"
-                    onclick="showHide('paraulesClau')"
-                    >T31: Establir paraules claus</a
-                >
-                <a
-                    class="btn btn-outline-primary"
-                    onclick="showHide('buyerPersona')"
-                    >T32: Crea Buyer Persona</a
-                >
-                <a class="btn btn-outline-primary" onclick="showHide('favicon')"
-                    >T33: Dissenya un favicon</a
-                >
-                <a
-                    class="btn btn-outline-primary"
-                    onclick="showHide('plantilla')"
-                    >T34: Fes una plantilla HTML5+CSS3</a
-                >
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Segona Quizena</title>
+  </head>
+  <body>
+    <h2 class="nom">Marc Llop Franch</h2>
+    <h3>Segona Quizena</h3>
+    <div class="container">
+      <div class="menu">
+        <a class="btn btn-outline-primary" onclick="showHide('videoConverter')"
+          >T29: Conversors de vídeo</a
+        >
+        <div id="videoConverter" style="display: none">
+          <a href="https://www.any-video-converter.com/">
+            Any Video Converter
+          </a>
+          <br />
+          <a href="http://www.freemake.com/free_video_converter/">
+            Freemake Video Converter
+          </a>
         </div>
-    </body>
-    <script src="./js/index.js"></script>
+
+        <a class="btn btn-outline-primary" onclick="showHide('audioConverter')"
+          >T30: Conversors d'àudio</a
+        >
+        <div id="audioConverter" style="display: none">
+          <a href="https://www.any-audio-converter.com/any-audio-converter.php">
+            Any Audio Converter
+          </a>
+          <br />
+          <a href="https://www.freemake.com/es/free_audio_converter/">
+            Freemake Audio Converter
+          </a>
+        </div>
+        <a
+          class="btn btn-outline-primary"
+          href="./flowerblog/index.html"
+          target="_blank"
+          >E1 - E2 - E3 - E4 - E5 - Flowerblog</a
+        >
+        <a class="btn btn-outline-primary" onclick="showHide('paraulesClau')"
+          >T31: Establir paraules claus</a
+        >
+        <div id="paraulesClau" style="display: none">
+          <a href="./assets/metaFloresNatura.png">
+            <img src="./assets/metaFloresNatura.png" />
+          </a>
+          <br />
+          <br />
+          <a href="./assets/floresnatura.png">
+            <img src="./assets/floresnatura.png" />
+          </a>
+        </div>
+        <a class="btn btn-outline-primary" onclick="showHide('buyerPersona')"
+          >T32: Crea Buyer Persona</a
+        >
+        <a class="btn btn-outline-primary" onclick="showHide('favicon')"
+          >T33: Dissenya un favicon</a
+        >
+        <a class="btn btn-outline-primary" onclick="showHide('plantilla')"
+          >T34: Fes una plantilla HTML5+CSS3</a
+        >
+      </div>
+    </div>
+  </body>
+  <script src="./js/index.js"></script>
 </html>
