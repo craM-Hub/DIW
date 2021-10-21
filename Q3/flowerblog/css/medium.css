@@ -1,8 +1,9 @@
 .display-medium {
-    display: inherit !important;
+  display: inherit !important;
 }
 
 body {
-    font-size: 0.8em;
-    font-family: 'Times New Roman', Times, serif;
+  font-size: 0.8em;
+  font-family: 'Times New Roman', Times, serif;
+  color: goldenrod;
 }

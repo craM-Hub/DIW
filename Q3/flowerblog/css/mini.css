@@ -1,8 +1,9 @@
 .display-mini {
-    display: inherit !important;
+  display: inherit !important;
 }
 
 body {
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 0.6em;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 0.6em;
+  color: red;
 }
