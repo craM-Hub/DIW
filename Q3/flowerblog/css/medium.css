@@ -1,9 +1,59 @@
 .display-medium {
-  display: inherit !important;
+    display: inherit !important;
 }
 
 body {
-  font-size: 0.8em;
-  font-family: 'Times New Roman', Times, serif;
-  color: goldenrod;
+    font-size: 0.8em;
+    font-family: 'Times New Roman', Times, serif;
+    color: goldenrod;
+    width: 100%;
+}
+
+nav {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background: url('../img/nav_background.png');
+}
+
+nav ul {
+    margin: 0 auto;
+    width: 100%;
+    list-style: none;
+}
+
+footer {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    background: #222;
+}
+
+footer div {
+    display: table;
+    margin: 0 auto;
+    padding: 44px 0;
+    width: 100%;
+    color: #777;
+}
+
+.audioWrapper {
+    display: flex;
+    position: relative;
+    top: 88px;
+}
+#intro {
+    position: relative;
+    margin-top: 96px;
+    padding: 44px;
+    background: #467612 url('../img/intro_flower.png') repeat-x;
+
+    /* Background-size not implemented yet */
+    -webkit-background-size: 100%;
+    -o-background-size: 100%;
+    -khtml-background-size: 100%;
+
+    /* Border-radius not implemented yet */
+    -moz-border-radius: 22px;
+    -webkit-border-radius: 22px;
 }
