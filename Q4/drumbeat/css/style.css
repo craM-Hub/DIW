@@ -42,12 +42,12 @@ body {
 .primary-menu {
     display: flex;
     flex: 1;
+    align-self: flex-end;
     font-size: 30px;
 }
 
 .primary-menu > ul {
-    align-self: flex-end;
-    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
 .primary-menu > ul > li {
@@ -62,7 +62,57 @@ body {
     font-size: 40px;
     font-weight: bold;
     color: rgb(71, 69, 197);
+}
+
+.secondary-menu {
     display: flex;
+    flex: 1;
+    font-size: 20px;
+}
+
+.secondary-menu > ul {
+    align-self: start;
+}
+
+.secondary-menu-links {
+    display: flex;
+    flex: 1;
+}
+
+.secondary-menu-links > li {
+    background-color: lightgray;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 5px;
+    display: flex;
+}
+
+.secondary-menu-language {
+    display: flex;
+    flex-direction: row;
+}
+
+.lang-en {
+    background-color: lightgray;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0px;
+}
+.lang-ca {
+    background-color: lightgray;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0px;
+}
+.lang-es {
+    background-color: lightgray;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin: 0px;
 }
 
 .separador {
