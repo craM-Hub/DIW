@@ -1,46 +1,28 @@
 .container {
-  flex-direction: row;
-  display: flex;
-  text-align: center;
-  justify-content: center;
+    flex-direction: row;
+    display: flex;
+    text-align: center;
+    justify-content: center;
 }
 
 .menu {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 h3 {
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100px;
-}
-
-#bar,
-#sueldos,
-#domini,
-#blog,
-#linkcss,
-#estructura,
-#htmlValidator {
-  text-align: center;
-  justify-content: center;
-  align-items: center;
-  margin-bottom: 20pt;
-}
-
-.img {
-  width: 75%;
-  padding-top: 20pt;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
 }
 
 .btn {
-  margin: 5pt;
+    margin: 5pt;
 }
 
 .nom {
-  text-align: center;
-  margin-top: 10pt;
+    text-align: center;
+    margin-top: 10pt;
 }
