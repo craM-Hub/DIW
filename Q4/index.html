@@ -4,37 +4,54 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Document</title>
-        <link rel="stylesheet" href="./css/style.css" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+            crossorigin="anonymous"
+        />
+        <link rel="stylesheet" href="./css/styles.css" />
+        <title>Cuarta Quizena</title>
     </head>
     <body>
+        <h2 class="nom">Marc Llop Franch</h2>
+        <h3>Cuarta Quizena</h3>
         <div class="container">
-            <header class="header">
-                <div class="logo">
-                    <img src="./assets/drumbeat_logo.png" alt="drumbeat_logo" />
+            <div class="menu">
+                <a class="btn btn-outline-primary" onclick="showHide('menu')"
+                    >T35: Menú</a
+                >
+                <div id="menu" style="display: none">
+                    <ul>
+                        <li>
+                            <a href="#" title="Enlace genérico">Elemento 1</a>
+                        </li>
+                        <li>
+                            <a href="#" title="Enlace genérico">Elemento 2</a>
+                        </li>
+                        <li>
+                            <a href="#" title="Enlace genérico">Elemento 3</a>
+                        </li>
+                        <li>
+                            <a href="#" title="Enlace genérico">Elemento 4</a>
+                        </li>
+                        <li>
+                            <a href="#" title="Enlace genérico">Elemento 5</a>
+                        </li>
+                        <li>
+                            <a href="#" title="Enlace genérico">Elemento 6</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="login-container">
-                    <div class="login">
-                        <ul>
-                            <li>log in</li>
-                            <li>sign up</li>
-                        </ul>
-                    </div>
-                    <div class="primary-menu">
-                        <ul>
-                            <li>about</li>
-                            <li>projects</li>
-                            <li>people</li>
-                            <li>festival</li>
-                            <li>donate</li>
-                        </ul>
-                    </div>
-                </div>
-            </header>
-            <div class="title">
-                Drumbeat Learning, Freedom and the Web Festival
+
+                <a
+                    class="btn btn-outline-primary"
+                    href="./drumbeat/index.html"
+                    target="_blank"
+                    >P2: DRUMBEAT</a
+                >
             </div>
         </div>
-        <footer></footer>
     </body>
+    <script src="./js/index.js"></script>
 </html>
