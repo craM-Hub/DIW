@@ -29,6 +29,7 @@ footer {
     width: 100%;
     height: 150px;
     background-color: rgb(102, 102, 102);
+    margin-top: 20px;
 }
 
 .container {
@@ -66,7 +67,6 @@ footer {
 .primary-menu {
     display: flex;
     flex: 1;
-    align-self: flex-end;
     font-size: 30px;
 }
 
@@ -155,6 +155,7 @@ footer {
     font-size: 38px;
     font-weight: bold;
     color: rgb(98, 132, 224);
+    margin-bottom: 20px;
 }
 
 .inner-container {
@@ -372,6 +373,12 @@ img + p {
 .icon-text {
     display: flex;
     color: white;
+}
+
+.icon-text > p {
+    display: flex;
+    color: white;
+    margin-left: 10px;
 }
 
 .icon-text a {
