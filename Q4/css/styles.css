@@ -26,3 +26,18 @@ h3 {
     text-align: center;
     margin-top: 10pt;
 }
+
+li {
+    color: gray;
+    background-color: rgb(230, 230, 230);
+    border-radius: 10px 0px;
+    padding: 5px;
+    margin-left: 20px;
+    list-style: none;
+    float: left;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(73, 0, 73);
+}
