@@ -36,8 +36,14 @@ footer {
     display: flex;
     flex: 1;
     flex-direction: column;
-    margin-right: 10%;
-    margin-left: 10%;
+}
+
+.container-content {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    width: 40%;
+    align-self: center;
 }
 
 .header {
