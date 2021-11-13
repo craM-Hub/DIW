@@ -7049,11 +7049,27 @@ button.close {
     }
 }
 @media (max-width: 767px) {
+    .secondary-menu-language {
+        float: left;
+    }
+    .secondary-menu {
+        font-size: 14px;
+    }
+    .primary-menu {
+        font-size: 20px;
+    }
+
     .hidden-xs {
         display: none !important;
     }
 }
 @media (min-width: 768px) and (max-width: 991px) {
+    .secondary-menu-language {
+        float: left;
+    }
+    .secondary-menu {
+        font-size: 14px;
+    }
     .hidden-sm {
         display: none !important;
     }
