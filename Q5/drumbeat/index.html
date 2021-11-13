@@ -6,10 +6,15 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
         <link rel="stylesheet" href="./css/style.css" />
-       <!--  <link rel="stylesheet" href="./css/bootstrap.css" />
-        <link rel="stylesheet" href="./css/bootstrap.min.css" />
-        <link rel="stylesheet" href="./css/bootstrap-theme.css" />
-        <link rel="stylesheet" href="./css/bootstrap-theme.min.css" /> -->
+        <link rel="icon" href="./assets/favicon.ico" />
+        <!-- Bootstrap core CSS -->
+        <link rel="stylesheet" href="./css/bootstrap.css" />
+
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <link href="./css/ie10-viewport-bug-workaround.css" rel="stylesheet" />
+
+        <!-- Custom styles for this template -->
+        <link href="./css/carousel.css" rel="stylesheet" />
     </head>
     <body>
         <div class="container">
@@ -25,41 +30,168 @@
                     <div class="login-container">
                         <div class="login">
                             <ul>
-                                <li>log in</li>
-                                <li>sign up</li>
+                                <li><a href="#">log in</a></li>
+                                <li><a href="#">sign up</a></li>
                             </ul>
                         </div>
                         <div class="primary-menu">
                             <ul>
-                                <li>about</li>
-                                <li>projects</li>
-                                <li>people</li>
-                                <li>festival</li>
-                                <li>donate</li>
+                                <li><a href="#">about</a></li>
+                                <li><a href="#">projects</a></li>
+                                <li><a href="#">people</a></li>
+                                <li><a href="#">festival</a></li>
+                                <li><a href="#">donate</a></li>
                             </ul>
                         </div>
                     </div>
                 </header>
+                <!-- Carousel -->
+                <div
+                    id="myCarousel"
+                    class="carousel slide"
+                    data-ride="carousel"
+                >
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators">
+                        <li
+                            data-target="#myCarousel"
+                            data-slide-to="0"
+                            class="active"
+                        ></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="item active">
+                            <img
+                                class="first-slide"
+                                src="./assets/img1.jpg"
+                                alt="First slide"
+                            />
+                            <div class="container">
+                                <div class="carousel-caption">
+                                    <h1>Example headline.</h1>
+                                    <p>
+                                        Note: If you're viewing this page via a
+                                        <code>file://</code> URL, the "next" and
+                                        "previous" Glyphicon buttons on the left
+                                        and right might not load/display
+                                        properly due to web browser security
+                                        rules.
+                                    </p>
+                                    <p>
+                                        <a
+                                            class="btn btn-lg btn-primary"
+                                            href="#"
+                                            role="button"
+                                            >Sign up today</a
+                                        >
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img
+                                class="second-slide"
+                                src="./assets/img2.jpg"
+                                alt="Second slide"
+                            />
+                            <div class="container">
+                                <div class="carousel-caption">
+                                    <h1>Another example headline.</h1>
+                                    <p>
+                                        Cras justo odio, dapibus ac facilisis
+                                        in, egestas eget quam. Donec id elit non
+                                        mi porta gravida at eget metus. Nullam
+                                        id dolor id nibh ultricies vehicula ut
+                                        id elit.
+                                    </p>
+                                    <p>
+                                        <a
+                                            class="btn btn-lg btn-primary"
+                                            href="#"
+                                            role="button"
+                                            >Learn more</a
+                                        >
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img
+                                class="third-slide"
+                                src="./assets/img3.jpg"
+                                alt="Third slide"
+                            />
+                            <div class="container">
+                                <div class="carousel-caption">
+                                    <h1>One more for good measure.</h1>
+                                    <p>
+                                        Cras justo odio, dapibus ac facilisis
+                                        in, egestas eget quam. Donec id elit non
+                                        mi porta gravida at eget metus. Nullam
+                                        id dolor id nibh ultricies vehicula ut
+                                        id elit.
+                                    </p>
+                                    <p>
+                                        <a
+                                            class="btn btn-lg btn-primary"
+                                            href="#"
+                                            role="button"
+                                            >Browse gallery</a
+                                        >
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a
+                        class="left carousel-control"
+                        href="#myCarousel"
+                        role="button"
+                        data-slide="prev"
+                    >
+                        <span
+                            class="glyphicon glyphicon-chevron-left"
+                            aria-hidden="true"
+                        ></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a
+                        class="right carousel-control"
+                        href="#myCarousel"
+                        role="button"
+                        data-slide="next"
+                    >
+                        <span
+                            class="glyphicon glyphicon-chevron-right"
+                            aria-hidden="true"
+                        ></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                <!-- fin carousel -->
+
                 <div class="web-title">
                     Drumbeat Learning, Freedom and the Web Festival
                 </div>
                 <div class="secondary-menu">
                     <ul class="secondary-menu-links">
-                        <li>Festival</li>
-                        <li>Program</li>
-                        <li>Participants</li>
-                        <li>Registrarion</li>
-                        <li>Logistics</li>
-                        <li>Get Involvet</li>
-                        <li>Wiki</li>
+                        <li><a href="#">Festival</a></li>
+                        <li><a href="#">Program</a></li>
+                        <li><a href="#">Participants</a></li>
+                        <li><a href="#">Registrarion</a></li>
+                        <li><a href="#">Logistics</a></li>
+                        <li><a href="#">Get Involvet</a></li>
+                        <li><a href="#">Wiki</a></li>
                     </ul>
 
                     <div>
                         <ul class="secondary-menu-language">
                             <li>language:</li>
-                            <li class="lang-en">en</li>
-                            <li class="lang-ca">ca</li>
-                            <li class="lang-es">es</li>
+                            <li class="lang-en"><a href="#">en</a></li>
+                            <li class="lang-ca"><a href="#">ca</a></li>
+                            <li class="lang-es"><a href="#">es</a></li>
                         </ul>
                     </div>
                 </div>
@@ -284,7 +416,7 @@
                     </div>
                     <div class="right-section">
                         <div class="register-container">
-                            <div class="register">Register</div>
+                            <div class="register"><a href="">Register</a></div>
                             <div>
                                 or find out how to
                                 <span style="font-weight: bold"
@@ -494,7 +626,7 @@
                                 width="20px"
                             />
                         </div>
-                        <p>Twitter</p>
+                        <p><a href="#">Twitter</a></p>
                     </div>
                     <div class="icon-text">
                         <div>
@@ -504,7 +636,7 @@
                                 width="20px"
                             />
                         </div>
-                        <p>Facebook</p>
+                        <p><a href="#">Facebook</a></p>
                         <p></p>
                     </div>
                 </div>
@@ -548,5 +680,18 @@
                 </div>
             </div>
         </footer>
+        <!-- Bootstrap core JavaScript
+    ================================================== -->
+        <!-- Placed at the end of the document so the pages load faster -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script>
+            window.jQuery ||
+                document.write('<script src="./js/jquery.min.js"><\/script>');
+        </script>
+        <script src="./js/bootstrap.min.js"></script>
+        <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
+        <script src="./js/holder.min.js"></script>
+        <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+        <script src="./js/ie10-viewport-bug-workaround.js"></script>
     </body>
 </html>

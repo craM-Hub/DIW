@@ -17,6 +17,7 @@ h5 {
 
 a {
   text-decoration: none;
+  color: inherit;
 }
 
 body {
@@ -71,6 +72,9 @@ footer {
   float: left;
   margin-left: 20px;
 }
+.login > ul > li:hover {
+  color: rgb(187, 187, 187);
+}
 
 .primary-menu {
   display: flex;
@@ -90,6 +94,9 @@ footer {
   margin-left: 20px;
   list-style: none;
   float: left;
+}
+.primary-menu > ul > li:hover {
+  background-color: rgb(187, 187, 187);
 }
 
 .web-title {
@@ -123,6 +130,9 @@ footer {
   margin-right: 10px;
   padding: 5px;
 }
+.secondary-menu-links > li:hover {
+  background-color: rgb(187, 187, 187);
+}
 
 .secondary-menu-language {
   color: rgb(102, 102, 102);
@@ -144,11 +154,17 @@ footer {
   padding-right: 5px;
   margin: 0px;
 }
+.lang-en:hover {
+  background-color: rgb(187, 187, 187);
+}
 .lang-ca {
   background-color: rgb(230, 230, 230);
   padding-left: 5px;
   padding-right: 5px;
   margin: 0px;
+}
+.lang-ca:hover {
+  background-color: rgb(187, 187, 187);
 }
 .lang-es {
   background-color: rgb(230, 230, 230);
@@ -157,6 +173,9 @@ footer {
   padding-left: 5px;
   padding-right: 5px;
   margin: 0px;
+}
+.lang-es:hover {
+  background-color: rgb(187, 187, 187);
 }
 
 .title {
