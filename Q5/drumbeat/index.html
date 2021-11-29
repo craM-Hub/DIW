@@ -27,7 +27,9 @@
                     <div class="login-container col-md-12 col-lg-8">
                         <div class="login">
                             <ul>
-                                <li><a href="#">log in</a></li>
+                                <li>
+                                    <a href="#">log in</a>
+                                </li>
                                 <li><a href="#">sign up</a></li>
                             </ul>
                         </div>
@@ -202,6 +204,7 @@
 
                 <div class="inner-container">
                     <div
+                    id="left-section"
                         class="
                             left-section
                             col-xs-12 col-sm-8 col-md-8 col-lg-8
@@ -430,7 +433,9 @@
                         "
                     >
                         <div class="register-container">
-                            <div class="register"><a href="">Register</a></div>
+                            <div class="register" onclick="crearForm()">
+                                <a href="#">Register</a>
+                            </div>
                             <div>
                                 <p>
                                     or find out how to
@@ -707,6 +712,7 @@
             window.jQuery ||
                 document.write('<script src="./js/jquery.min.js"><\/script>');
         </script>
+        <script src="./js/index.js"></script>
         <script src="./js/bootstrap.min.js"></script>
         <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
         <script src="./js/holder.min.js"></script>
